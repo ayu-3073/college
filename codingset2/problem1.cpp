@@ -1,3 +1,4 @@
+//problem 1 : Student details
 #include <iostream>
 using namespace std;
 
@@ -23,7 +24,7 @@ public:
 };
 
 int main() {
-    Student s1;   // Creating an object
+    Student s1;   
 
     s1.setData();
     s1.displayData();
