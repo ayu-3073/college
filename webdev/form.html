@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body> 
+    
+    <form <h1>Student Contact and Registration Form</h1>
+      <form action="https://www.amazon.in" method="post">
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+        </p>
+        <p>
+          <label for="mobile">Mobile Number:</label>
+          <input type="tel" id="mobile" name="mobile" required>
+        </p>
+
+        <fieldset>
+          <legend>Gender:</legend>
+          <label><input type="radio" name="gender" value="female" required> Female</label>
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label><input type="radio" name="gender" value="other"> Other</label>
+        </fieldset>
+
+        <p>
+          <label for="course">Course:</label>
+          <select id="course" name="course" required>
+            <option value="">Select a course</option>
+            <option value="computer-science">Computer Science</option>
+            <option value="information-technology">Electrical Engineering</option>
+            <option value="electronics">Electronics and Communication</option>
+            <option value="mechanical">Mechanical Engineering</option>
+          </select>
+        </p>
+
+        <fieldset>
+          <legend>Hobbies:</legend>
+          <label><input type="checkbox" name="hobbies" value="reading"> Reading</label>
+          <label><input type="checkbox" name="hobbies" value="sports"> Sports</label>
+          <label><input type="checkbox" name="hobbies" value="music"> Music</label>
+          <label><input type="checkbox" name="hobbies" value="photography"> Photography</label>
+        </fieldset>
+
+        <p>
+          <label for="address">Address:</label><br>
+          <textarea id="address" name="address" rows="4" cols="40" required></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </p>
+      </form>
+  </body>
+</html>
