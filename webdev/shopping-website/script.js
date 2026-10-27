@@ -5,7 +5,7 @@ const products = [
     name: 'Focus Wireless Headphones', 
     category: 'Electronics', 
     price: 2499, 
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80', 
+    image: 'https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D', 
     description: 'Comfortable over-ear headphones with rich sound and all-day battery life.' 
   },
   { 
@@ -26,10 +26,10 @@ const products = [
   },
   { 
     id: 4, 
-    name: 'Everyday Canvas Tote', 
+    name: 'Leather Bag', 
     category: 'Accessories', 
     price: 799, 
-    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80', 
+    image: 'https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D', 
     description: 'A roomy canvas tote for groceries, books and everything between.' 
   },
   { 
