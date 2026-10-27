@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about ShopEase.">
+  <title>About | ShopEase</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header"><a class="brand" href="index.html"
+      aria-label="ShopEase home"><span>Shop</span>Ease</a><button class="menu-toggle" aria-label="Open navigation"
+      aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a
+        href="products.html">Products</a><a class="active" href="about.html">About</a><a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions"><button class="theme-toggle" aria-label="Toggle dark mode">◐</button><button
+        class="cart-button" aria-label="Open shopping cart">Bag <span class="cart-count">0</span></button></div>
+  </header>
+  <main>
+    <section class="about-hero">
+      <div>
+        <p class="eyebrow">OUR STORY</p>
+        <h1>A simpler way to find <em>good things.</em></h1>
+        <p>ShopEase is a small idea with a big belief: useful products should be easy to discover, lovely to use, and
+          fairly priced.</p>
+      </div><img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=85"
+        alt="Creative team collaborating around a table">
+    </section>
+    <section class="section story">
+      <div class="section-heading">
+        <p class="eyebrow">WHY WE EXIST</p>
+        <h2>Less searching. More living.</h2>
+      </div>
+      <p>We began with a familiar feeling: spending too much time scrolling through endless choices. ShopEase brings a
+        considered collection of everyday essentials into one calm, friendly place.</p>
+      <p>Every item is selected for its practicality, simple design and ability to make ordinary moments feel easier.
+      </p>
+    </section>
+    <section class="mission-grid">
+      <article>
+        <p class="eyebrow">MISSION</p>
+        <h2>Make everyday shopping feel effortless.</h2>
+        <p>We help people find dependable essentials without the noise, pressure or guesswork.</p>
+      </article>
+      <article>
+        <p class="eyebrow">VISION</p>
+        <h2>Be the most trusted little shop on the internet.</h2>
+        <p>A place people return to for useful finds, fair value and a genuinely good experience.</p>
+      </article>
+    </section>
+    <section class="section values">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT GUIDES US</p>
+        <h2>The ShopEase standard.</h2>
+      </div>
+      <div class="value-grid">
+        <article><span>01</span>
+          <h3>Thoughtful selection</h3>
+          <p>We favor things that earn a place in your day.</p>
+        </article>
+        <article><span>02</span>
+          <h3>Simple is better</h3>
+          <p>Clear choices and an uncomplicated experience.</p>
+        </article>
+        <article><span>03</span>
+          <h3>People first</h3>
+          <p>Kind service is part of every order.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="index.html"><span>Shop</span>Ease</a>
+    <p>Small joys for everyday living.</p>
+    <p>© <span class="year"></span> ShopEase. Made for learning.</p>
+  </footer>
+  <aside class="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-header">
+      <h2>Your bag</h2><button class="close-cart" aria-label="Close cart">×</button>
+    </div>
+    <div class="cart-items"></div>
+    <div class="cart-footer">
+      <p>Total <strong class="cart-total">₹0</strong></p><button
+        class="button button-primary checkout-button">Checkout</button>
+    </div>
+  </aside>
+  <div class="overlay"></div>
+  <dialog class="product-modal"><button class="close-modal" aria-label="Close product details">×</button>
+    <div class="modal-content"></div>
+  </dialog>
+  <div class="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>

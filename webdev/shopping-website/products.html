@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse ShopEase products.">
+  <title>Products | ShopEase</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header"><a class="brand" href="index.html"
+      aria-label="ShopEase home"><span>Shop</span>Ease</a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a>
+      <a class="active" href="products.html">Products</a><a href="about.html">About</a>
+      <a href="contact.html">Contact</a></nav>
+    <div class="header-actions"><button class="theme-toggle" aria-label="Toggle dark mode">◐</button><button
+        class="cart-button" aria-label="Open shopping cart">Bag <span class="cart-count">0</span></button></div>
+  </header>
+  <main>
+    <section class="page-intro">
+      <p class="eyebrow">OUR COLLECTION</p>
+      <h1>Made for the <em>everyday.</em></h1>
+      <p>Browse simple, useful things that make your day a little better.</p>
+    </section>
+    <section class="shop-controls">
+      <label class="search-box"><span>⌕</span>
+      <input id="search-input" type="search"
+          placeholder="Search products..." aria-label="Search products"></label>
+      <div class="filter-buttons" role="group" aria-label="Filter by category"><button class="filter active"
+          data-category="All">All</button><button class="filter" data-category="Electronics">Electronics</button><button
+          class="filter" data-category="Fashion">Fashion</button><button class="filter"
+          data-category="Home">Home</button><button class="filter" data-category="Accessories">Accessories</button>
+      </div>
+    </section>
+    <section class="section product-section">
+      <p class="results-count"></p>
+      <div class="product-grid" data-product-list="all"></div>
+      <p class="no-results" hidden>No products match your search. Try something else.</p>
+    </section>
+  </main>
+  <footer><a class="brand" href="index.html"><span>Shop</span>Ease</a>
+    <p>Small joys for everyday living.</p>
+    <p>© <span class="year"></span> ShopEase. Made for learning.</p>
+  </footer>
+  <aside class="cart-drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-header">
+      <h2>Your bag</h2><button class="close-cart" aria-label="Close cart">×</button>
+    </div>
+    <div class="cart-items"></div>
+    <div class="cart-footer">
+      <p>Total <strong class="cart-total">₹0</strong></p><button
+        class="button button-primary checkout-button">Checkout</button>
+    </div>
+  </aside>
+  <div class="overlay"></div>
+  <dialog class="product-modal"><button class="close-modal" aria-label="Close product details">×</button>
+    <div class="modal-content"></div>
+  </dialog>
+  <div class="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
