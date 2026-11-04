@@ -383,6 +383,10 @@ body {
   text-align: center
 }
 
+body.dark .promise {
+  background: var(--surface);
+}
+
 .promise-icon {
   display: inline-grid;
   place-items: center;
@@ -403,6 +407,7 @@ body {
   color: #bfc8c0;
   font-size: .82rem
 }
+
 
 footer {
   padding: 35px max(5vw, 28px);
@@ -541,6 +546,11 @@ footer p {
   padding: 40px;
   background: var(--ink);
   color: #fff
+}
+
+body.dark .mission-grid article {
+  background: var(--surface);
+  color: var(--ink)
 }
 
 .mission-grid article+article {
